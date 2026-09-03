@@ -43,6 +43,13 @@ while the settlors are not long-term UK residents.
   FIG, net dividends are taxed at up to 39.35%.
 - Distributions under FIG do not wash out the stockpiled gains or OIG pools.
   Pre-2012-04-06 gains in the underlying companies sit in the stockpiled pool.
+- Capital distributions are matched to stockpiled gains last-in-first-out. A
+  gain matched to a capital payment made later than the year after it arose
+  attracts a supplementary charge, raising the effective CGT rate from 24% to
+  a maximum of 38.4% for higher-rate taxpayers (18% to 28.8% basic rate)
+  after six years. Capital distributions to non-UK residents after
+  2018-04-06 are not matched to the pools and cannot wash them out except in
+  the year the trust ends.
 - Non-reporting offshore funds generate offshore income gains taxed as income.
 - The trusts must not hold UK-situs assets or derive value from UK
   residential property.

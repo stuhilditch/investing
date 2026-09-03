@@ -52,3 +52,5 @@ the group for UK work and is a second, UK-taxed, channel.
 - Treatment of one-off receipts (asset sales, bonuses) versus regular
   dividends.
 - Currency in which distributions are held before investment.
+- Timing of trust distributions within the year (currently an annual
+  resolution by 30 June plus monthly payments).

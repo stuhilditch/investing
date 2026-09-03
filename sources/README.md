@@ -7,8 +7,8 @@ Original adviser documents. Never edited. Each has a digest in
 
 | File | Date | Author | What it is | Status |
 |---|---|---|---|---|
-| `2026-05-07-buzzacott-uk-tax-report.pdf` | 2026-05-07 | Buzzacott LLP (Nyah Duffy) | UK tax treatment of the Ellell Trust and GHS Hilditch Trust, and of Stu and Danni as UK residents under the FIG regime | Final |
-| `2026-05-07-buzzacott-corporate-residency-review.pdf` | 2026-05-07 | Buzzacott LLP (James Currie) | UK corporate tax residency and permanent establishment review for AIFS and Moncel Australia (RTO) Pty Ltd | Marked DRAFT on every page |
+| `2026-05-07-buzzacott-uk-tax-report.pdf` | 2026-05-07 | Buzzacott LLP (Nyah Duffy, per covering email) | UK tax treatment of the Ellell Trust and GHS Hilditch Trust, and of Stu and Danni as UK residents under the FIG regime | Final |
+| `2026-05-07-buzzacott-corporate-residency-review.pdf` | 2026-05-07 | Buzzacott LLP (James Currie, per covering email) | UK corporate tax residency and permanent establishment review for AIFS and Moncel Australia (RTO) Pty Ltd | Marked DRAFT on every page |
 
 ## Known documents not yet copied
 
@@ -28,3 +28,6 @@ noted.
 | 2026 Trust Distribution Resolutions, both trusts (signed by Andrew Phillips) | 2026-06-11 | Gmail, William Buck thread |
 | Dividend statement and minutes template (William Buck / Russell Kennedy) | 2026-06-10 | Gmail, William Buck thread |
 | Danni's investment proposal | forthcoming | To be provided |
+| Trust restructure plain-English review (Claude-written, reviews the 2026-05-06 Russell Kennedy documents; cited by D-0001 and context/entities.md) | 2026-05-06 | `~/Moncel/Assistant/archive/v1/deliverables/2026-05-06_trust_restructure_review.md` |
+| UK Restructuring Phase 2 task notes (records the 2026-05-19 Buzzacott meeting decisions; cited by D-0002 and D-0005) | 2026-05-20 | `~/Moncel/Assistant/archive/v1/tasks/local/uk-restructuring-phase-2/task-state.md` |
+| Buzzacott meeting 2026-05-19 (Cameron Hallhit, James Currie) Granola record | 2026-05-19 | Granola; summarised in `notes/2026-05-19-buzzacott-meeting.md` |

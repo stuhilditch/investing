@@ -36,5 +36,4 @@ expected decision and will fill most of the list below.
 - Base currency and currency hedging.
 - Contribution schedule from extraction.
 - Rebalancing rules.
-- Reporting cadence and format.
 - Whether to engage an investment manager or adviser.

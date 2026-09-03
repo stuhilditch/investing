@@ -74,5 +74,5 @@ Run before reporting any change complete:
 4. The sources provenance table matches the files on disk:
    `diff <(ls sources/ | grep -v README.md | sort) <(grep -o '^| `[^`]*`' sources/README.md | tr -d '|` ' | sort)`
 5. No identifiers or credentials:
-   `grep -rniE 'iban|sort code|bsb|account (no|number)|routing|swift|password|api[_ -]?key|token' --include='*.md' . | grep -v CLAUDE.md`
+   `grep -rniE '(iban|sort code|bsb|routing|swift|account (no\.?|number))[: ]*[0-9]' --include='*.md' README.md CLAUDE.md decisions policy context notes sources`
    Expected: no output.

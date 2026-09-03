@@ -22,9 +22,10 @@ FIG) and `context/digests/2026-05-07-buzzacott-corporate-residency-review.md`
 and Gains regime for tax years 2026/27 to 2029/30 inclusive. Under a valid
 claim, foreign income and gains realised in that year, including trust income
 and gains attributed to them and distributions from the trusts, are outside UK
-tax. The claim is made per person, per year, on the Self Assessment return
-(first return for 2026/27 due 2028-01-31; FIG claim hard deadline
-2029-01-31). Skipping a year does not extend the window.
+tax. The claim is made per person, per year, on the Self Assessment return. The 2026/27 return is due 2028-01-31.
+*Advice needed* — confirm with Buzzacott the latest date a 2026/27 FIG claim
+can validly be made; the report gives no date. Skipping a year does not
+extend the window.
 
 **C2 — Cost of a FIG claim.** In any year a FIG claim is made, that person
 loses the UK personal allowance and the CGT annual exempt amount, and cannot
@@ -57,9 +58,11 @@ or be covered by a FIG claim for the year of realisation. *Advice needed* on
 fund selection before the first purchase.
 
 **C6 — Inheritance tax and situs.** While neither is a long-term UK resident,
-only UK-situs assets are within UK IHT. Cash in UK bank accounts, UK
-property, and UK-listed holdings held directly are UK-situs. Foreign-situs
-assets are outside. Both trusts are excluded property trusts on the same
+only UK-situs assets are within UK IHT. Cash in UK bank accounts, UK land
+and property, and trust distributions kept in the UK are UK-situs and inside
+IHT; foreign-situs assets are outside. *Advice needed* on the situs of listed
+securities and pooled funds before the first purchase (Buzzacott); do not
+assume listing venue determines situs. Both trusts are excluded property trusts on the same
 basis and must not hold UK property or derive value from UK residential
 property.
 
@@ -83,7 +86,13 @@ would require fresh advice. Any investment vehicle sits outside the trusts
 Australian resident only while strategic decisions are made by its
 Australian-resident board outside the UK and Stu and Danni do not exercise
 shadow control. Moncel RTO must remain dormant while Stu and Danni are its
-directors. Stu and Danni's UK work creates a UK permanent establishment risk
+directors. Buzzacott's actual recommendation (corporate residency review
+4.17.2) is to appoint Australian-resident directors to Moncel RTO who can
+demonstrate independence; dormancy is the mitigation adopted instead. Under
+the Australia-UK treaty tie-breaker, place of effective management (POEM) is
+a wider test than central management and control, and Buzzacott consider it
+highly likely POEM for Moncel RTO would be the UK while Stu and Danni are its
+sole directors (section 5). Stu and Danni's UK work creates a UK permanent establishment risk
 for AIFS, which Moncel Limited UK exists to ring-fence [D-0002]. Contracts
 for the group are not concluded from UK soil except through Moncel Limited UK.
 

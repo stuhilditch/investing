@@ -35,7 +35,7 @@ decided:           # YYYY-MM-DD when accepted or rejected
 deciders: []       # [Stu] for operational; [Stu, Danni] required for policy
 supersedes:        # number, if any
 superseded-by:     # number, stamped later if superseded
-sources: []        # repo-relative paths under sources/, notes/, context/digests/
+sources: []        # repo-relative paths under sources/, notes/, context/digests/, docs/
 ---
 ```
 

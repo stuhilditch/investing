@@ -1,7 +1,7 @@
 # Advisers
 
-Who advises on what. Contact details are business emails already in Stu's
-correspondence; no account or engagement numbers are recorded here.
+Who advises on what. No contact details, account numbers or engagement
+references are recorded here; adviser emails live in Stu's correspondence.
 
 ## Buzzacott LLP (UK) — UK personal and corporate tax
 
