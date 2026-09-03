@@ -1,0 +1,61 @@
+{
+  "skill_name": "uk-fig-investing",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "Danni and I want to start investing next week. Give me a clear yes or no on whether her proposal is tax-efficient for us, tell me which fund and which account structure to use, and list anything we must do before the first transfer. Keep it decisive; we've been going back and forth for months and I want to move. The proposal is at sources/2026-08-27-danni-investment-proposal-sp500-under-fig.pdf (read pages 1-8).",
+      "expected_output": "A structured evaluation that reconciles the proposal's facts against the repo (catching the 18 May vs 11 May residence date), tables all fifteen constraints, states whether HMRC's reporting-fund list was checked, lists adviser questions, applies the household specifics (Moncel UK dividends make the FIG claim cost real), and routes the choice to a decision record rather than deciding.",
+      "files": [
+        "sources/2026-08-27-danni-investment-proposal-sp500-under-fig.pdf"
+      ],
+      "assertions": [
+        "Contains a facts-reconciliation table or list that checks the request's stated facts against the repository's context files",
+        "States the UK residence start date as 2026-05-11 wherever a residence or FIG start date is given, or explicitly flags any other date as a discrepancy",
+        "Contains a constraint-by-constraint table covering C1 through C15 with a verdict for each",
+        "Contains at least one explicitly numbered question addressed to Buzzacott",
+        "Does not use the words IRA, 401k, 401(k), Roth, wash sale, or RMD",
+        "States that the final choice is made in a decisions/ record requiring both Stu and Danni rather than being decided in the answer",
+        "Never describes an outcome as 'tax-free' without qualifying it with a valid FIG claim for that year",
+        "Reports the result of checking CSPX (IE00B5BMR087) against HMRC's reporting-fund list, or states explicitly that the list could not be reached",
+        "Notes that both spouses have UK-source dividend income from Moncel Limited UK so a FIG claim costs the personal allowance each year"
+      ]
+    },
+    {
+      "id": 1,
+      "prompt": "A friend in London who's a wealth manager says we're mad not to use our ISA allowances and that Scottish Mortgage Investment Trust (SMT, LSE-listed) and a Vanguard LifeStrategy 80 fund in a Hargreaves Lansdown Stocks and Shares ISA is the obvious move for \u00a320k each this tax year. Sounds sensible and simple to me. Can you set out how we'd do it?",
+      "expected_output": "Does not set out how to do it uncritically. Identifies that an ISA holds UK-situs assets inside IHT, that ISA income and gains are UK-source and outside FIG so the wrapper adds little during the FIG window and is not recognised after departure, that SMT and a UK OEIC are UK-situs, and that this conflicts with D-0005 (vehicles outside the UK). Produces the facts and constraint tables, routes tax questions to Buzzacott, and frames the choice as a decision record.",
+      "files": [],
+      "assertions": [
+        "Contains a facts-reconciliation table or list that checks the request's stated facts against the repository's context files",
+        "States the UK residence start date as 2026-05-11 wherever a residence or FIG start date is given, or explicitly flags any other date as a discrepancy",
+        "Contains a constraint-by-constraint table covering C1 through C15 with a verdict for each",
+        "Contains at least one explicitly numbered question addressed to Buzzacott",
+        "Does not use the words IRA, 401k, 401(k), Roth, wash sale, or RMD",
+        "States that the final choice is made in a decisions/ record requiring both Stu and Danni rather than being decided in the answer",
+        "Never describes an outcome as 'tax-free' without qualifying it with a valid FIG claim for that year",
+        "Identifies that an ISA holding UK-listed or UK-domiciled assets is UK-situs and inside UK inheritance tax (C6)",
+        "Identifies that ISA income and gains are UK-source, so FIG gives no benefit and the wrapper is not recognised after leaving the UK",
+        "Identifies the conflict with decision D-0005 / constraint C12 (vehicles outside the UK)",
+        "Does not provide uncritical step-by-step instructions to open the ISA and buy the two holdings"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Quick one. We've got about \u00a3180k sitting in our Monzo and Starling accounts from the last few months of dividends and it's earning nothing. I'm going to move it into a Marcus easy-access saver at 4.1% today and then drip it into the market from there over the next year. Any reason not to?",
+      "expected_output": "Flags that GBP cash in UK bank accounts is UK-situs and inside IHT (C6) and that UK interest is UK-source income taxed regardless of FIG, so a large UK cash balance is the household's worst-placed asset; notes funding for investments comes from AUD distributions and could be held outside the UK; does not assert what the right account is but tables constraints, gives adviser questions on situs and interest, and notes the drip-feed plan belongs in a decision record. Does not apply US logic.",
+      "files": [],
+      "assertions": [
+        "Contains a facts-reconciliation table or list that checks the request's stated facts against the repository's context files",
+        "States the UK residence start date as 2026-05-11 wherever a residence or FIG start date is given, or explicitly flags any other date as a discrepancy",
+        "Contains a constraint-by-constraint table covering C1 through C15 with a verdict for each",
+        "Contains at least one explicitly numbered question addressed to Buzzacott",
+        "Does not use the words IRA, 401k, 401(k), Roth, wash sale, or RMD",
+        "States that the final choice is made in a decisions/ record requiring both Stu and Danni rather than being decided in the answer",
+        "Never describes an outcome as 'tax-free' without qualifying it with a valid FIG claim for that year",
+        "Identifies that GBP cash in UK bank accounts is UK-situs and inside UK inheritance tax (C6)",
+        "Identifies that UK savings interest is UK-source income taxed regardless of a FIG claim",
+        "Raises holding the cash outside the UK (for example in the AUD accounts that receive distributions) as an alternative to test with Buzzacott"
+      ]
+    }
+  ]
+}

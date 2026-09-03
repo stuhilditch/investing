@@ -1,6 +1,6 @@
 ---
 name: uk-fig-investing
-description: Use when evaluating, selecting, funding or holding any investment, fund, ETF, broker, account or vehicle for Stu and Danni while they are UK tax resident under the 4-year FIG regime, when a proposal or adviser note claims something is tax-efficient, or when installed finance skills are about to apply US tax logic (wash sales, IRA, 401k, Roth) to this household.
+description: Evaluates any investment, fund, ETF, broker, account, cash holding or vehicle against the UK tax position of Stu and Danni, who are UK resident under the 4-year FIG regime with Australian trusts and a UK service company. Produces a facts-reconciled, constraint-by-constraint evaluation with adviser questions and a reporting-fund check. Use it whenever money is about to be placed anywhere, whenever a proposal, friend or adviser note claims something is tax-efficient or "obvious", whenever cash is sitting in UK accounts, and whenever a finance skill is about to apply US tax logic (IRA, 401k, Roth, wash sale) to this household, even if the user just asks a quick question.
 ---
 
 # UK FIG Investing
@@ -28,7 +28,9 @@ tax treatment is confirmed by Buzzacott, never asserted here.
 
 An evaluation produced with this skill contains these six parts, in this
 order, under these headings. A request for a short or decisive answer shortens
-each part; it does not remove one.
+each part; it does not remove one, because the parts most often dropped under
+time pressure (facts reconciliation, adviser routing) are where the money is
+lost.
 
 **1. Facts reconciled.** A table with columns `Claim | Proposal says | Repo
 says | Wins`, one row per date, entity, status or figure the proposal states.
@@ -39,12 +41,18 @@ to record, not a fact to repeat.
 
 **2. Constraint table.** Columns `Constraint | Verdict | Evidence`, one row
 for each of C1 to C15 in order. Verdict is PASS, FAIL, ADVICE NEEDED or N/A
-with a reason. Fifteen rows, always.
+with a reason. All fifteen rows appear because the constraints that get skipped as
+"obviously irrelevant" (trust residence, TRS, company residence) are the
+ones a UK-based holding quietly trips.
 
-**3. Verified externally.** Reporting-fund status of every pooled fund checked
-against HMRC's published list (search "HMRC approved offshore reporting funds
-list") by ISIN, with the date checked. A fund factsheet or data aggregator is
-not the check; if the list cannot be reached, say so and mark C5 ADVICE NEEDED.
+**3. Verified externally.** Reporting-fund status of every pooled fund is
+checked against HMRC's published list, not a factsheet or aggregator,
+because the list is the only source HMRC will accept and factsheets lag.
+Run `python3 .claude/skills/uk-fig-investing/scripts/check_reporting_fund.py <ISIN> [<ISIN> ...]`
+from the repository root; it downloads the current list from gov.uk and
+prints FOUND or MISSING per ISIN with the list date. Quote that output. If
+the script fails, say so and mark C5 ADVICE NEEDED rather than substituting
+another source.
 
 **4. Adviser questions.** Each ADVICE NEEDED row rewritten as a numbered
 question for Buzzacott, answerable yes or no, with the decision that depends
