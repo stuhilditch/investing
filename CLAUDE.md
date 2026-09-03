@@ -61,6 +61,16 @@ decisions it fed. No other structure is required.
 **Facts change.** Update `context/entities.md`, `context/money-flow.md` or
 `context/advisors.md` directly. Facts are not decisions.
 
+## Installed skills
+
+`.claude/skills/` holds four vetted third-party skills (investment-policy,
+asset-allocation, historical-risk, portfolio) and the Anthropic
+`wealth-management` plugin is enabled at project scope; see
+`.claude/skills/README.md` for provenance. Scripts run with `uv run`. Skill
+output is analysis for `notes/`; it never writes to `decisions/` or `policy/`,
+and none of these skills knows UK tax rules, so every result is tested against
+`context/tax-constraints.md` before it informs a decision.
+
 ## Verification checklist
 
 Run before reporting any change complete:
