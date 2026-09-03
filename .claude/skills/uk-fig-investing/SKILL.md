@@ -62,7 +62,8 @@ on the answer. Broker and account-titling questions go to the broker.
 spouses have UK-source dividend income from Moncel Limited UK, so a FIG
 claim's cost (C2) is real each year; funding comes from trust distributions
 and never adds assets to the trusts (C9); cash parked in UK accounts is
-UK-situs (C6); departure is planned before 2030-04-05 and a return within
+UK-situs and earns UK-source interest (C6), and the concrete alternative is
+the Australian accounts that already receive the distributions; departure is planned before 2030-04-05 and a return within
 five years is possible (C13).
 
 **6. Decision routing.** The evaluation is analysis for `notes/`. The choice
@@ -79,6 +80,8 @@ and nothing is "decided" in the evaluation itself.
 | Leaving the UK | Four of the last seven years resident triggers the temporary non-residence rule on gains realised abroad if back within five years | C13 |
 | US persons | Non-US funds become PFICs if either spouse becomes a US taxpayer; flag any plausible route | C15 |
 | Vehicles | Outside the UK, outside the trusts, Buzzacott consulted first | C9, C12 |
+| UK wrappers (ISA, SIPP, GIA at a UK platform) | Everything inside is UK-situs and UK-source, so FIG adds nothing and IHT applies; the ISA wrapper is not recognised by most other countries once resident there, and a SIPP locks funds until at least 57. Conflicts with D-0005 unless a record says otherwise | C6, C12 |
+| Cash awaiting investment | GBP in UK banks is UK-situs and its interest is UK-source; the named alternative is to leave distributions in the Australian accounts that receive them, or another non-UK account, until deployed | C6 |
 | FIG claim | Per person, per year, on the return; costs the personal allowance and CGT exemption that year | C1, C2 |
 
 ## Red flags
