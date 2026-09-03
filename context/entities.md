@@ -47,9 +47,9 @@ Separate: Australian Institute of Food Safety Foundation (charity)
 
 ### GHS Ellell Management Pty Ltd (corporate trustee)
 - Australian proprietary company acquired in 2026-05 to act as trustee of both
-  trusts. **Confirm** ACN and that a single company acts for both trusts; the
-  2026-05-06 plan named two companies (GHS Hilditch Management Pty Ltd and
-  Ellell Management Pty Ltd), later correspondence names one.
+  trusts. A single company acts for both trusts (confirmed by Stu
+  2026-09-03); the 2026-05-06 plan had named two companies but one was
+  acquired. ACN not recorded here.
 - Sole director: Andrew Phillips, engaged as a nominee director through Sarah
   Guy Pty Ltd. Shareholders: Stu and Danni, 100%.
 - Engagement terms (from the 2026-05-06 review): nominee only, up to two
@@ -85,7 +85,7 @@ Separate: Australian Institute of Food Safety Foundation (charity)
 
 ### Canadian Institute of Food Safety Limited (CIFS)
 - Canadian subsidiary of AIFS. Pays dividends to AIFS.
-- Directors: Stu and Danni (**confirm**). On 2026-08-06 Stu and Drew agreed to
+- Directors: Stu and Danni (confirmed by Stu 2026-09-03). On 2026-08-06 Stu and Drew agreed to
   replace them with Rodney Hilditch, to be filed effective 2026-08-24 (the AGM
   date) or backdated to the start of the UK tax year. Drew owns this.
 - Candidate contracting counterparty for Moncel Limited UK's services
@@ -100,7 +100,8 @@ Separate: Australian Institute of Food Safety Foundation (charity)
 ### Australian Institute of Food Safety Foundation
 - Australian registered charity, ~AUD 17,000 revenue FY2023, donates to
   OzHarvest. Not dormant.
-- Directors: Stu, Danni, Daniel Hillier (ACNC 2023 return; **confirm**).
+- Directors: Stu and Danni (confirmed by Stu 2026-09-03); Daniel Hillier also
+  listed on the ACNC 2023 return (**confirm** whether still a director).
 - Buzzacott advised the same principles as for AIFS apply; tailored advice on
   board makeup outstanding.
 
