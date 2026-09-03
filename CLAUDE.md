@@ -63,10 +63,13 @@ decisions it fed. No other structure is required.
 
 ## Installed skills
 
-`.claude/skills/` holds four vetted third-party skills (investment-policy,
-asset-allocation, historical-risk, portfolio) and the Anthropic
-`wealth-management` plugin is enabled at project scope; see
-`.claude/skills/README.md` for provenance. Scripts run with `uv run`. Skill
+`.claude/skills/` holds nine vetted third-party skills (investment-policy,
+asset-allocation, historical-risk, forward-risk, currencies-and-fx,
+diversification, portfolio, yahoo-finance, historyofmarket), the household
+skill `uk-fig-investing`, and the Anthropic `wealth-management` plugin is
+enabled at project scope; see `.claude/skills/README.md` for provenance.
+Apply `uk-fig-investing` whenever any investment, fund, account or vehicle is
+evaluated. Scripts run with `uv run`. Skill
 output is analysis for `notes/`; it never writes to `decisions/` or `policy/`,
 and none of these skills knows UK tax rules, so every result is tested against
 `context/tax-constraints.md` before it informs a decision.

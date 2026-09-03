@@ -106,6 +106,38 @@ relationship. Any UK-touching activity at trust level triggers a check.
 inside the trusts without specific advice; consult Buzzacott before
 incorporating anything [D-0005].
 
+**C13 — Temporary non-residence.** Someone UK resident in four of the seven
+tax years before departure is caught by the temporary non-residence rules if
+they return within five years: gains realised while abroad are taxed in the
+year of return, and a fresh FIG claim needs a further ten consecutive
+non-resident years. Leaving in Q1 2030 after four years meets the four-of-seven
+test. Holding is not a disposal; the rule bites on sales made while abroad
+followed by a return. Source: Danni's proposal of 2026-08-27 section 5.2,
+citing HMRC HS278. *Advice needed* before any sale after departure if a
+return is plausible.
+
+**C14 — Excess Reportable Income.** An accumulating fund with HMRC
+reporting-fund status attributes its reinvested income to the holder each
+year as Excess Reportable Income, taxable as income even though no cash is
+received. Whether ERI from a foreign reporting fund is covered by a FIG claim
+is treated by the proposal as unsettled. Source: proposal section 5.1.
+*Advice needed* in writing from Buzzacott before the first purchase of an
+accumulating fund. Reporting-fund status itself is verified against HMRC's
+published list by ISIN, not the fund factsheet.
+
+**C15 — US person risk.** Irish and other non-US funds are Passive Foreign
+Investment Companies for US tax purposes. If either Stu or Danni becomes a US
+taxpayer by residence, visa, citizenship or marriage, holding such funds
+attracts punitive US tax and annual Form 8621 filing. Source: proposal
+section 5.3. Any plausible route to US tax status is disclosed to Buzzacott
+before the fund choice is fixed.
+
+**Market access note.** UK PRIIPs rules require a Key Information Document,
+so UK-facing brokers block retail purchases of US-domiciled ETFs regardless
+of FIG status. US-domiciled holdings above USD 60,000 are also exposed to US
+estate tax for non-US persons. Source: proposal section 3.1. Not a UK tax
+constraint but it rules out US-domiciled funds in practice.
+
 ## Open items tracked elsewhere
 
 Not this repository's job, but they touch the tax position:
